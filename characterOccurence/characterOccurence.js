@@ -10,3 +10,18 @@
 
  // input   =  aaaaaaaaaaaa
  // result  =  123456789101112
+
+ function occurence (str) { 
+    var result={}; 
+    var occ = ""
+    for (var i =0 ; i<str.length ; i++){ 
+    var char = str[i]; 
+    if (result[char] === undefined) { 
+      result[char]=1 ; 
+      occ=occ+result[char] ;   
+    } else { result[char]= result [char]+1
+     occ=occ+result[char] ;
+    }  
+    }
+   return occ ;
+    }
