@@ -10,3 +10,7 @@
 
  // input   =  aaaaaaaaaaaa
  // result  =  123456789101112
+
+
+
+ 
